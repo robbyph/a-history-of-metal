@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    color: white;
+    font-family: 'FallingSky';
+}
+
+a{
+    color:white;
+}
+
+a:visited{
+    color: #bf0000;
+}
+
+
+@font-face {
+    font-family: 'Defiler';
+    src: url('fonts/TheDefiler.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DeathDevil';
+    src: url('fonts/DeathDevil.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FallingSky';
+    src: url('fonts/FallingSky.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    font-family: 'FallingSky';
+    color:white;
+    margin:2em;
+}
+
+h1{
+    background-color: black;
+    font-family: 'Defiler';
+    color: white;
+    font-size: 9em;
+    text-align: center;
+}
+
+h2{
+    color:white;
+    font-family: 'Defiler';
+    font-size: 3em;
+    padding: .5em 1em .25em 1em;
+}
+
+h3{
+    color:white;
+    font-family: 'Defiler';
+    font-size: 2em;
+    padding: .5em 1em .25em 1.5em;
+}
+
+strong{
+    color: #bf0000;
+}
+
+p{
+    padding: .5em 3em 1em 3em;
+}
+
+ul{
+    padding: .5em 3em 1em 3em;
+    list-style: none;
+}
+
+img{
+    padding: 2em;
+}
+
+nav{
+    align-content: center;
+    width: 100%;
+    background-color: #2b2d42;
+}
+
+ 
+.dropmenu {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+}
+
+.dbtn {
+  background-color: #2b2d42 ;
+  color: white;
+  padding: .8em;
+  font-size: 1.2em;
+  border: none;
+  font-family: 'DeathDevil';
+}
+
+.linkBtn{
+  background-color: #2b2d42 ;
+  color: white;
+  padding: .8em;
+  font-size: 1.2em;
+  border: none;
+  font-family: 'DeathDevil';
+  text-decoration: none;
+}
+
+.linkBtn:visited{
+    color:white;
+}
+
+.dropcont {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropcont a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'DeathDevil';
+  font-size: 1.2em;
+}
+
+.dropcont a:hover {background-color: #ddd;}
+
+.dropmenu:hover .dropcont {display: block;}
+
+.dropmenu:hover .dbtn {background-color: #bf0000;}
+
+.linkBtn:hover {background-color: #bf0000;}
+
+table{
+    padding: .5em 3em 1em 3em;
+}
+
+table caption{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+table th{
+    font-weight: bold;
+    padding-right:1em;
+}
+
+table td{
+    padding-right: 2em;
+}
